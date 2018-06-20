@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My FIRST SINATRA APP</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<link rel='stylesheet' type='text/css' href='/style.css'>   
+<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,500,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div id="container">
+    <div id='header'>
+      <a href='/'><img src='/logo2.png' alt='logo image' class='logo'/></a>
+    </div>
+
+    <div id='main'>
+      <center><%= yield %></center>
+    </div>
+
+    <div id='footer'>
+    © YR FIRST SINATRA APP
+    </div>
+  </div>
+</body>
+</html>

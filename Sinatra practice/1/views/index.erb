@@ -1,0 +1,16 @@
+
+	<form action="/output" method="post">
+		<span class="border-bottom" class="border border-dark">
+		User ID       : <input type="text" name="user" class = "fields">
+		</span> 
+		<br>
+		<span class="border-bottom" class="border border-dark" 	>		
+		Password : <input type="password" name="pass" class = "fields">
+		</span>
+		<br>
+		<input type="submit" name="ok" value="OK" >
+		<br>
+		<a href = "/reg"> Register </a>	
+		<br>
+		<b><%= @regstatus %></b>
+	</form>

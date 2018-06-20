@@ -1,0 +1,23 @@
+<form action="/reg" method="post">
+		<span class="border-bottom" class="border border-dark">
+		Email ID       : <input type="text" name="email" class = "fields">
+		</span> 
+		<br>
+		<span class="border-bottom" class="border border-dark">
+		User ID       : <input type="text" name="user" class = "fields">
+		</span> 
+		<br>
+		<span class="border-bottom" class="border border-dark" 	>		
+		Password : <input type="password" name="pass" class = "fields">
+		</span>
+		<br>
+		<span class="border-bottom" class="border border-dark" 	>		
+		 Confirm Password : <input type="password" name="cnfrm" class = "fields">
+		</span>		
+		<br>
+		<input type="submit" name="ok" value="Register" >
+		<br>
+		<%= @err %>
+		<%= @mess %>
+	</form>
+	
